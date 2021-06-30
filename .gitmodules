@@ -1,0 +1,9 @@
+[submodule "external/leviathan"]
+	path = external/leviathan
+	url = https://github.com/Corralx/leviathan.git
+[submodule "external/rvhyper"]
+	path = external/rvhyper
+	url = https://github.com/tp971/rvhyper
+[submodule "external/strix"]
+	path = external/strix
+	url = https://github.com/tp971/strix.git
