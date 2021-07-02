@@ -1,5 +1,11 @@
 # REHyper
-Runtime enforcement for hyperproperties given as universal HyperLTL formulas
+REHyper is a runtime enforcement tool for temporal hyperproperties given as universal HyperLTL formulas.
+This repository is the official implementation of the ATVA'21 paper "Runtime Enforcement of Hyperproperties".
+
+REHyper monitors a reactive system for undesired behavior at runtime and corrects the system's output in case it violates the given hyperproperty specification.
+The implementation supports two input models.
+The parallel trace input model, where the number of traces is known a-priori and all traces are processed in parallel.
+The sequential trace input model, where traces are processed sequentially and no a-priori bound on the number of traces is known.
 
 ## Dependencies:
 * [Rust/Cargo](https://rustup.rs/) 1.45.0.
